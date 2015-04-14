@@ -1,0 +1,119 @@
+/** Add css rules here for your application. */
+body {
+	background-color: #222222;
+}
+
+.login-formouter {
+	width: 100%;
+	height: 100%;
+}
+
+.login-card {
+	padding: 40px;
+	width: 274px;
+	height: 250px;
+	background-color: #F7F7F7;
+	margin: 0px auto;
+	border-radius: 2px;
+	box-shadow: 0px 2px 2px rgba(0, 0, 0, 0.3);
+	overflow: hidden;
+	vertical-align: middle;
+}
+
+.loginTitle {
+	font: 30pt "UbuntuRegular";
+	text-align: center;
+	margin-bottom: 20px;
+}
+
+.loginLogo {
+	font: 20pt "UbuntuLight";
+}
+
+.loginLogoBig {
+	font: bold 20pt "UbuntuRegular";
+}
+
+.login-textouter {
+	width: 100%;
+}
+
+.login-loadingsymbol {
+	color: #494949;
+	vertical-align: middle;
+	-webkit-appearance: none;
+}
+
+.login-loadingtext {
+	width: 100%;
+	font-family: 'UbuntuRegular', Arial, sans-serif;
+	color: #494949;
+	vertical-align: middle;
+	-webkit-appearance: none;
+}
+
+.login-symbol {
+	color: #bbbbbb;
+	background: none repeat scroll 0 0 #d9d9d9;
+	height: 34px;
+	margin-bottom: 10px;
+	padding: 7px 0 3px 3px;
+	vertical-align: middle;
+	-webkit-appearance: none;
+}
+
+.login-textbox {
+	height: 44px;
+	font: 16px "UbuntuRegular";
+	width: 100%;
+	margin-bottom: 10px;
+	-webkit-appearance: none;
+	background: #fff;
+	border: 1px solid #d9d9d9;
+	padding: 0 8px;
+	box-sizing: border-box;
+	-moz-box-sizing: border-box;
+}
+
+.login-textbox:hover {
+	border: 1px solid #b9b9b9;
+}
+
+.login-messagebox {
+	height: 34px;
+	width: 100%;
+}
+
+.login-errormessage {
+	font: 16px "UbuntuRegular";
+	color: red;
+	width: 100%;
+}
+
+.login-submit {
+	text-align: center;
+	font-size: 16px;
+	font-family: 'UbuntuRegular', Arial, sans-serif;
+	font-weight: 700;
+	height: 40px;
+	width: 100%;
+	display: block;
+	margin-bottom: 10px;
+	position: relative;
+	border: 0px;
+	color: #fff;
+	background-color: #4d90fe;
+	outline: none;
+}
+
+.login-submit:hover {
+	border: 0px;
+	background-color: #357ae8;
+	outline: none;
+}
+
+.login-submit::-moz-focus-inner {
+	border: 0;
+	padding: 0;
+	outline: none;
+}
