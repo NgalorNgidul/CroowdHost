@@ -10,7 +10,7 @@
   <module>
     <web>
       <web-uri>CroowdLogin.war</web-uri>
-      <context-root>/login</context-root>
+      <context-root>login</context-root>
     </web>
   </module>
 </application>
