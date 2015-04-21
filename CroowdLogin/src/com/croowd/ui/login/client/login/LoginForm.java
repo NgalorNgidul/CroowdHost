@@ -42,6 +42,9 @@ public class LoginForm extends Composite {
 	@UiField
 	HorizontalPanel messageHolder;
 
+	String cookieName = "simbiosis";
+	String domainName = "croowd.co.id";
+
 	Label message = new Label();
 	HorizontalPanel loadingPanel = new HorizontalPanel();
 
@@ -148,11 +151,12 @@ public class LoginForm extends Composite {
 		final long DURATION = 1000 * 60 * 60 * 24 * 14;
 		// duration remembering login. 2 weeks in this example.
 		Date expires = new Date(System.currentTimeMillis() + DURATION);
-		Cookies.setCookie("simbiosis", sessionName, expires, null, "/", false);
+		Cookies.setCookie(cookieName, sessionName, expires, domainName, "/",
+				false);
 	}
 
 	private void removeCookie() {
-		Cookies.removeCookie("simbiosis", "/");
+		Cookies.removeCookie(cookieName, "/");
 	}
 
 	private void onLoginSuccess(SimpleSessionJso session) {
