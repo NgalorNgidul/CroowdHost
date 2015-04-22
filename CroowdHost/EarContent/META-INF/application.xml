@@ -13,4 +13,10 @@
       <context-root>login</context-root>
     </web>
   </module>
+  <module>
+    <web>
+      <web-uri>SIMbiosisSSO.war</web-uri>
+      <context-root>sso</context-root>
+    </web>
+  </module>
 </application>
