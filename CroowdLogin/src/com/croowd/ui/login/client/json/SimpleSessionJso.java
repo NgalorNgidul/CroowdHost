@@ -14,4 +14,8 @@ public class SimpleSessionJso extends JavaScriptObject {
 		return this.firstModule;
 	}-*/;
 
+	public final native String getRedirect() /*-{
+		return this.redirect;
+	}-*/;
+
 }
