@@ -19,4 +19,10 @@
       <context-root>sso</context-root>
     </web>
   </module>
+  <module>
+    <web>
+      <web-uri>CroowdResources.war</web-uri>
+      <context-root>resources</context-root>
+    </web>
+  </module>
 </application>
