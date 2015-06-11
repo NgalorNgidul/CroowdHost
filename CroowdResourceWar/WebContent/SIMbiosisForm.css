@@ -1,0 +1,232 @@
+.apppanelparent {
+	background: #dfdfdf;
+}
+
+.apppanel {
+	background: #dfdfdf;
+	width: 100%;
+	height: 100%;
+	padding: 10px;
+}
+
+.scrollpanel {
+	width: 100%;
+	height: 100%;
+}
+
+.fullbox {
+	width: 100%;
+}
+
+.fullboxwithpadding {
+	vertical-align: top;
+	width: 100%;
+	padding: 10px;
+}
+
+.halfbox {
+	vertical-align: top;
+	width: 50%;
+}
+
+.header1 {
+	font: bold 11pt "UbuntuRegular";
+	color: #555555;
+	background: #ffffff;
+	padding: 10px;
+	vertical-align: middle;
+}
+
+.haswidget {
+	height: 25px;
+}
+
+.headerspacer {
+	background: #dfdfdf;
+	height: 3px;
+}
+
+.widgetboxspacer {
+	background: #dfdfdf;
+	height: 10px;
+}
+
+.widgetbox {
+	background: #ffffff;
+	padding: 10px 15px 15px 15px;
+	width: 100%;
+}
+
+.compositebox {
+	padding-bottom: 8px;
+}
+
+.compositetablebox {
+	padding-bottom: 8px;
+	display: table;
+}
+
+.compositecellbox {
+	padding-right: 10px;
+	display: table-cell;
+}
+
+.fieldspacer {
+	width: 10px;
+}
+
+.fieldwrapper {
+	width: 100%;
+}
+
+.fieldtitle {
+	font: bold 10pt "UbuntuRegular";
+	color: #555555;
+	padding-bottom: 3px;
+}
+
+.fieldlabel {
+	font: 10pt "UbuntuLight";
+	color: #555555;
+}
+
+.fieldsymbol {
+	color: #bbbbbb;
+	background: none repeat scroll 0 0 #d9d9d9;
+	height: 22px;
+	padding: 3px 0 0 3px;
+	vertical-align: middle;
+	-webkit-appearance: none;
+}
+
+.fieldtextbox {
+	height: 25px;
+	font: 12px "UbuntuRegular";
+	-webkit-appearance: none;
+	background: #fff;
+	border: 1px solid #d9d9d9;
+	padding: 0 8px;
+	box-sizing: border-box;
+	-moz-box-sizing: border-box;
+}
+
+.fieldtextbox:hover {
+	border: 1px solid #b9b9b9;
+}
+
+.fieldtextbox:hover {
+	border: 1px solid #b9b9b9;
+}
+
+.fieldtextbox:focus {
+	-moz-box-shadow: 0 0 5px #51cbee;
+	-webkit-box-shadow: 0 0 5px #51cbee;
+	box-shadow: 0 0 5px #51cbee;
+	border: 1px solid #51cbee;
+}
+
+.fieldcombobox {
+	height: 25px;
+	font: 12px "UbuntuRegular";
+	-webkit-appearance: none;
+	background: #fff;
+	border: 1px solid #d9d9d9;
+	padding: 0 8px;
+	box-sizing: border-box;
+	-moz-box-sizing: border-box;
+}
+
+.fieldcombobox:hover {
+	border: 1px solid #b9b9b9;
+}
+
+.fieldcombobox:focus {
+	-moz-box-shadow: 0 0 5px #51cbee;
+	-webkit-box-shadow: 0 0 5px #51cbee;
+	box-shadow: 0 0 5px #51cbee;
+	border: 1px solid #51cbee;
+}
+
+.fieldbutton {
+	text-align: center;
+	font: 700 12px "UbuntuRegular";
+	height: 25px;
+	margin-bottom: 10px;
+	border: 0px;
+	color: #fff;
+	background-color: #4d90fe;
+	outline: none;
+}
+
+.fieldbutton:hover {
+	border: 0px;
+	background-color: #357ae8;
+	outline: none;
+}
+
+.fieldbutton::-moz-focus-inner {
+	border: 0;
+	padding: 0;
+	outline: none;
+}
+
+.fieldbigsymbol {
+	font-size: 18px;
+	color: #bbbbbb;
+	background: none repeat scroll 0 0 #d9d9d9;
+	height: 28px;
+	padding: 7px 0 0 7px;
+	vertical-align: middle;
+	-webkit-appearance: none;
+}
+
+.fieldbigtextbox {
+	height: 35px;
+	font: 14px "UbuntuRegular";
+	-webkit-appearance: none;
+	background: #fff;
+	border: 1px solid #d9d9d9;
+	padding: 0 8px;
+	box-sizing: border-box;
+	-moz-box-sizing: border-box;
+}
+
+.fieldbigtextbox:hover {
+	border: 1px solid #b9b9b9;
+}
+
+.fieldbigbutton {
+	text-align: center;
+	font: 700 14px "UbuntuRegular";
+	height: 35px;
+	margin-bottom: 10px;
+	border: 0px;
+	color: #fff;
+	background-color: #4d90fe;
+	padding-left: 20px;
+	padding-right: 20px;
+	outline: none;
+}
+
+.fieldbigbutton:hover {
+	border: 0px;
+	background-color: #357ae8;
+	outline: none;
+}
+
+.fieldbigbutton::-moz-focus-inner {
+	border: 0;
+	padding: 0;
+	outline: none;
+}
+
+.itemline {
+	font: 10pt "UbuntuLight";
+	color: #555555;
+	padding: 2px 0 2px 0;
+}
+
+.itemlinespacer {
+	background: #dfdfdf;
+	height: 2px;
+}

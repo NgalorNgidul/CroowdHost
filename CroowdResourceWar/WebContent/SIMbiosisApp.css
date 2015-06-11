@@ -1,0 +1,327 @@
+/** Add css rules here for your application. */
+.callOutOuter {
+	width: 100%;
+	padding: 0;
+	border: 0;
+}
+
+.callOutPanel {
+	padding: 0;
+	background-color: white;
+	border: solid 1px #A9A9A9;
+}
+
+.callOutHeader {
+	width: 100%;
+	background-color: #A9A9A9;
+	padding: 5px;
+}
+
+.callOutArrow {
+	position: absolute;
+	left: 245px;
+	top: -8px;
+	width: 16px;
+	height: 9px;
+	background: url(images/arrow_up.png) left top no-repeat;
+}
+
+.callOutAppArrow {
+	position: absolute;
+	left: 175px;
+	top: -8px;
+	width: 16px;
+	height: 9px;
+	background: url(images/arrow_up.png) left top no-repeat;
+}
+
+.callOutTitle {
+	font: 11pt "UbuntuRegular";
+	color: #222222;
+	padding: 3px 0 5px 5px;
+}
+
+.callOutIcon {
+	padding-left: 5px;
+	padding-top: 3px;
+	color: #666666;
+}
+
+.callOutSubtitle {
+	font: 9pt UbuntuRegular;
+	padding-left: 3px;
+	padding-bottom: 5px;
+	color: #666666;
+}
+
+.callOutMenuItem {
+	font: 10pt UbuntuRegular;
+	color: #222222;
+	cursor: pointer;
+	padding: 5px 2px 5px 8px;
+    text-decoration: none;
+    transition:color 0.3s;
+    -o-transition:color 0.3s;
+    -ms-transition:color 0.3s;
+    -moz-transition:color 0.3s;
+    -webkit-transition:color 0.3s;
+}
+
+.callOutMenuItem:hover {
+	color: #A9A9A9;
+}
+
+.headerMain {
+	background-color: #323232;
+	vertical-align: middle;
+	height: 100%;
+}
+
+.headerLogo {
+	width: 210px;
+	font: 14pt "UbuntuLight";
+	color: #EEEEEE;
+	padding: 0 0 0 10px;
+	border: 0;
+}
+
+.headerSpace {
+	font: 12pt "UbuntuLight";
+	white-space: nowrap;
+	padding: 0;
+	border: 0;
+}
+
+.headerLogoBig {
+	font: bold 14pt "UbuntuRegular";
+}
+
+.headerConfig {
+	padding: 0;
+	border: 0;
+	vertical-align: middle;
+	height: 100%;
+}
+
+.headerConfigButton {
+	font-size: 12pt;
+	height: 30px;
+	width: 30px;
+	cursor: pointer;
+	color: #EEEEEE;
+	vertical-align: middle;
+	border: 0;
+	padding: 0;
+	background-color: transparent;
+	outline: none;
+    text-decoration: none;
+    transition:color 0.3s;
+    -o-transition:color 0.3s;
+    -ms-transition:color 0.3s;
+    -moz-transition:color 0.3s;
+    -webkit-transition:color 0.3s;
+}
+
+.headerConfigButton:hover {
+	color: #A9A9A9;
+}
+
+.headerConfigButton::-moz-focus-inner {
+	border: 0;
+	outline: none;
+}
+
+.headerConfigButtonOnClick {
+	font-size: 12pt;
+	height: 30px;
+	width: 30px;
+	cursor: pointer;
+	color: #A9A9A9;
+	vertical-align: middle;
+	border: 0;
+	padding: 0;
+	background-color: transparent;
+	outline: none;
+    text-decoration: none;
+    transition:color 0.3s;
+    -o-transition:color 0.3s;
+    -ms-transition:color 0.3s;
+    -moz-transition:color 0.3s;
+    -webkit-transition:color 0.3s;
+}
+
+.headerConfigButtonOnClick:hover {
+	color: #A9A9A9;
+}
+
+.headerConfigButtonOnClick::-moz-focus-inner {
+	border: 0;
+	outline: none;
+}
+
+.headerAppPath {
+	font: 11pt "UbuntuRegular";
+	color: #EEEEEE;
+}
+
+.sidebarMain {
+	width: 220px;
+	height: 100%;
+	padding: 0;
+	border: 0;
+	background-color: #4F4F4F;
+}
+
+.sidebarNoborder {
+	padding: 2px 2px 7px 2px;
+	border: 0;
+}
+
+.sidebarNoborder td {
+	vertical-align: middle !important;
+}
+
+.sidebarTitle {
+	font: bold 11pt "UbuntuRegular";
+	color: #EEEEEE;
+	padding: 0;
+	border: 0;
+}
+
+.sidebarCollapseButton {
+	font-size: 11pt;
+	height: 30px;
+	width: 30px;
+	cursor: pointer;
+	color: #EEEEEE;
+	background-color: #3F3F3F;
+	vertical-align: middle;
+	border: 0;
+	padding: 0;
+	outline: none;
+    text-decoration: none;
+    transition:color 0.3s;
+    -o-transition:color 0.3s;
+    -ms-transition:color 0.3s;
+    -moz-transition:color 0.3s;
+    -webkit-transition:color 0.3s;
+}
+
+.sidebarCollapseButton:hover {
+	color: #A9A9A9;
+}
+
+.sidebarCollapseButton::-moz-focus-inner {
+	border: 0;
+	outline: none;
+}
+
+.sidebarMenu {
+	padding: 5px 2px 5px 7px;
+}
+
+.sidebarMenu td {
+	font-size: 12pt;
+	height: 30px;
+	color: #EEEEEE;
+	cursor: pointer;
+	border: 0;
+	outline: none;
+	padding-right: 5px;
+	vertical-align: middle !important;
+    text-decoration: none;
+    transition:color 0.3s;
+    -o-transition:color 0.3s;
+    -ms-transition:color 0.3s;
+    -moz-transition:color 0.3s;
+    -webkit-transition:color 0.3s;
+}
+
+.sidebarMenu:hover td {
+	color: #A9A9A9;
+}
+
+.sidebarMenu::-moz-focus-inner td {
+	border: 0;
+	outline: none;
+}
+
+.sidebarMenuSelected {
+	padding: 5px 2px 5px 7px;
+}
+
+.sidebarMenuSelected td {
+	font-size: 12pt;
+	height: 30px;
+	color: #e27562;
+	cursor: pointer;
+	border: 0;
+	outline: none;
+	padding-right: 5px;
+	vertical-align: middle !important;
+}
+
+.sidebarMenuTitle {
+	font: 10pt "UbuntuLight";
+	vertical-align: middle;
+    text-decoration: none;
+    transition:color 0.3s;
+    -o-transition:color 0.3s;
+    -ms-transition:color 0.3s;
+    -moz-transition:color 0.3s;
+    -webkit-transition:color 0.3s;
+}
+
+.sidebarMenuTitle:hover {
+	color: #A9A9A9;
+}
+
+.sidebarMenuTitleSelected {
+	font: 10pt "UbuntuLight";
+	vertical-align: middle;
+	color: #e27562;
+}
+
+.sidebarShortMenu {
+	padding: 5px 2px 5px 7px;
+}
+
+.sidebarShortMenu td {
+	font: 12pt;
+	color: #EEEEEE;
+	background-color: #4F4F4F;
+	height: 30px;
+	cursor: pointer;
+	border: 0;
+	outline: none;
+	vertical-align: middle !important;
+    text-decoration: none;
+    transition:color 0.3s;
+    -o-transition:color 0.3s;
+    -ms-transition:color 0.3s;
+    -moz-transition:color 0.3s;
+    -webkit-transition:color 0.3s;
+}
+
+.sidebarShortMenu:hover td {
+	color: #A9A9A9;
+}
+
+.sidebarShortMenu::-moz-focus-inner td {
+	border: 0;
+	outline: none;
+}
+
+.sidebarShortMenuSelected {
+	padding: 5px 2px 5px 7px;
+}
+.sidebarShortMenuSelected td {
+	font: 12pt;
+	color: #e27562;
+	background-color: #4F4F4F;
+	height: 30px;
+	cursor: pointer;
+	border: 0;
+	outline: none;
+	vertical-align: middle !important;
+}

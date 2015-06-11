@@ -21,7 +21,7 @@
   </module>
   <module>
     <web>
-      <web-uri>CroowdResources.war</web-uri>
+      <web-uri>CroowdResourceWar.war</web-uri>
       <context-root>resources</context-root>
     </web>
   </module>

@@ -6,7 +6,7 @@
 		<project>SIMbiosisLanding</project>
 		<project>CroowdLogin</project>
 		<project>SIMbiosisSSO</project>
-		<project>CroowdResources</project>
+		<project>CroowdResourceWar</project>
 	</projects>
 	<buildSpec>
 		<buildCommand>

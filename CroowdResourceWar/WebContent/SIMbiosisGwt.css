@@ -1,0 +1,180 @@
+.gwt-TabLayoutPanel {
+	border: none;
+	margin: 0px;
+	padding: 0px;
+}
+
+.gwt-TabLayoutPanel .gwt-TabLayoutPanelTabs {
+	background-color: #898989 !important;
+	vertical-align: bottom;
+	height: 100%;
+	line-height: 43px;
+	padding-left: 7px;
+}
+
+.gwt-TabLayoutPanel .gwt-TabLayoutPanelTab {
+	background-color: #A9A9A9 !important;
+	color: #DFDFDF !important;
+	margin: 0px !important;
+	padding: 0px !important;
+	vertical-align: middle;
+	cursor: pointer;
+}
+
+.gwt-TabLayoutPanel .gwt-TabLayoutPanelTab-selected {
+	background-color: #DFDFDF !important;
+	color: #222222 !important;
+}
+
+.gwt-TabLayoutPanel .gwt-TabLayoutPanelTabInner {
+	font: 9pt "UbuntuRegular";
+	color: inherit;
+	vertical-align: bottom;
+	padding: 10px 15px 10px 15px;
+}
+
+.gwt-TabLayoutPanel .gwt-TabLayoutPanelContentContainer {
+	border: solid 10px #DFDFDF !important;
+	margin: 0px;
+}
+
+.gwt-TabLayoutPanel .gwt-TabLayoutPanelContent {
+	background-color: #DFDFDF;
+	border: none !important;
+}
+
+/**/
+/* 
+* Global widget style. 
+*/
+.gwt-DatePicker {
+	border: 1px solid #f1f1f1;
+	border-bottom: 2px solid #f1f1f1;
+	color: 6b6b6b;
+	cursor: default;
+	width: 7em;
+}
+
+.datePickerDay, .datePickerWeekdayLabel, .datePickerWeekendLabel {
+	font: 11pt "UbuntuRegular";
+	text-align: center;
+	padding: 4px;
+	outline: none;
+	cursor: default;
+}
+
+.gwt-DatePicker td, .datePickerMonthSelector  td :focus {
+	outline: none
+}
+
+.gwt-DateBox input {
+	width: 8em;
+}
+
+/* 
+* Calendar styles 
+*/
+.datePickerDays {
+	background-color: white;
+	width: 100%;
+}
+
+.datePickerWeekdayLabel {
+	background: #dbe6de;
+}
+
+.datePickerWeekendLabel {
+	background: #dbe7ef;
+}
+
+.datePickerDay {
+	padding: 3px;
+	cursor: hand;
+	width: 1em;
+}
+
+.datePickerDayIsToday {
+	border: 1px solid black;
+	padding: 3px;
+}
+
+.datePickerDayIsWeekend {
+	background: #e1e1e1;
+}
+
+.datePickerDayIsFiller {
+	color: #bfbfbf;
+	padding: 2px;
+	cursor: hand;
+}
+
+.datePickerDayIsSelected {
+	background: #aaccee;
+}
+
+.datePickerDayIsDisabled {
+	color: graytext;
+}
+
+.datePickerDayIsHighlighted {
+	border: 1px solid #eeeeee;
+	padding: 2px;
+}
+
+.datePickerDayIsSelectedAndHighlighted {
+	background: #bbddff;
+}
+
+/* 
+* Month selector styles 
+*/
+.datePickerMonthSelector {
+	background: #dbe6de;
+	width: 100%;
+	text-align: center;
+}
+
+.datePickerMonth {
+	text-align: center;
+	vertical-align: center;
+	white-space: nowrap;
+	font: bold 11pt "UbuntuRegular";
+}
+
+.datePickerPreviousButton {
+	text-align: left;
+}
+
+.datePickerNextButton {
+	text-align: right;
+}
+
+/*
+*
+*/
+.gwt-PopupPanelGlass {
+	background-color: #000;
+	opacity: 0.3;
+	filter: alpha(opacity = 30);
+}
+
+.gwt-DialogBox {
+	padding: 0px;
+	background-color: #dfdfdf;
+}
+
+.gwt-DialogBox .Caption {
+	background: #F1F1F1;
+	padding: 4px 8px 4px 4px;
+	cursor: default;
+	font: 10pt "UbuntuRegular";
+}
+
+.gwt-DialogBox .dialogMiddle {
+	height: 100%;
+}
+
+.gwt-DialogBox .dialogContent {
+	height: 100%;
+	padding: 10px;
+}
