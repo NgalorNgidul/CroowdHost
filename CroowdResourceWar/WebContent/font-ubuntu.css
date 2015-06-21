@@ -1,0 +1,16 @@
+@font-face {
+    font-family: 'UbuntuRegular';
+    src: url('fonts/Ubuntu.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'UbuntuLight';
+    src: url('fonts/Ubuntu-Light.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+

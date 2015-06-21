@@ -114,15 +114,32 @@
 	border: 1px solid #b9b9b9;
 }
 
-.fieldtextbox:hover {
+.fieldtextbox:focus {
+	-moz-box-shadow: 0 0 5px #4d90fe;
+	-webkit-box-shadow: 0 0 5px #4d90fe;
+	box-shadow: 0 0 5px #4d90fe;
+	border: 1px solid #4d90fe;
+}
+
+.fieldareabox {
+	font: 12px "UbuntuRegular";
+	-webkit-appearance: none;
+	background: #fff;
+	border: 1px solid #d9d9d9;
+	padding: 0 8px;
+	box-sizing: border-box;
+	-moz-box-sizing: border-box;
+}
+
+.fieldareabox:hover {
 	border: 1px solid #b9b9b9;
 }
 
-.fieldtextbox:focus {
-	-moz-box-shadow: 0 0 5px #51cbee;
-	-webkit-box-shadow: 0 0 5px #51cbee;
-	box-shadow: 0 0 5px #51cbee;
-	border: 1px solid #51cbee;
+.fieldareabox:focus {
+	-moz-box-shadow: 0 0 5px #4d90fe;
+	-webkit-box-shadow: 0 0 5px #4d90fe;
+	box-shadow: 0 0 5px #4d90fe;
+	border: 1px solid #4d90fe;
 }
 
 .fieldcombobox {
@@ -141,10 +158,10 @@
 }
 
 .fieldcombobox:focus {
-	-moz-box-shadow: 0 0 5px #51cbee;
-	-webkit-box-shadow: 0 0 5px #51cbee;
-	box-shadow: 0 0 5px #51cbee;
-	border: 1px solid #51cbee;
+	-moz-box-shadow: 0 0 5px #4d90fe;
+	-webkit-box-shadow: 0 0 5px #4d90fe;
+	box-shadow: 0 0 5px #4d90fe;
+	border: 1px solid #4d90fe;
 }
 
 .fieldbutton {
