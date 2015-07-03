@@ -145,7 +145,14 @@ public class LoginForm extends Composite {
 	private void onLoginSuccess(SimpleSessionJso session) {
 		hideLoading();
 		//
-		Window.Location.replace(session.getRedirect());
+		String ref = Window.Location.getParameter("ref");
+		String hash = Window.Location.getHash();
+		if (ref == null) {
+			Window.Location.replace(session.getRedirect());
+		} else {
+			Window.Location.replace(session.getBaseRedirect() + ref + "&hash="
+					+ hash.substring(1) + "&session=" + session.getName());
+		}
 	}
 
 	private void showMessage(String text) {

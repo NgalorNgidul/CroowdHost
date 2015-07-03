@@ -18,4 +18,8 @@ public class SimpleSessionJso extends JavaScriptObject {
 		return this.redirect;
 	}-*/;
 
+	public final native String getBaseRedirect() /*-{
+		return this.baseRedirect;
+	}-*/;
+
 }
